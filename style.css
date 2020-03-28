@@ -1,0 +1,61 @@
+
+body{
+	background: url(../images/back.png) no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+	-o-background-size: cover;
+  	background-size: cover;
+    font-family:Baloo Thambi 2;
+}
+
+.header {
+    text-align: center;
+    top: auto;
+    margin: 0 auto;
+    padding: 0.5em 0.5em;
+    background-color: #272727;
+    border-radius:30px 30px 00px 00px; 
+}
+
+.sidebar {
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius:30px 30px 30px 30px; 
+    background: #FFD700;
+    color: #000;
+    opacity: 0.8;}
+
+.formbody {
+    margin-top: 0.5em;
+    padding: 1em 0.6em;
+}
+
+.pure-form input[type="color"], .pure-form input[type="date"], 
+.pure-form input[type="datetime-local"], .pure-form input[type="datetime"], 
+.pure-form input[type="email"], .pure-form input[type="month"], 
+.pure-form input[type="number"], .pure-form input[type="password"], 
+.pure-form input[type="search"], .pure-form input[type="tel"], 
+.pure-form input[type="text"], .pure-form input[type="time"], 
+.pure-form input[type="url"], .pure-form input[type="week"], 
+.pure-form select, .pure-form textarea {
+	padding: 0.3em 0.6em;
+}
+
+.conditions{
+    text-align: left;
+	margin-left: 2em;
+	margin-top: 0em;
+}
+
+@media (min-width: 48em) {
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right:0;
+        
+    }
+
+}
